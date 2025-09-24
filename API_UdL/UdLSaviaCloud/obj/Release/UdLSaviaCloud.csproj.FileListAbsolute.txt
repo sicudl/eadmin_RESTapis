@@ -1,0 +1,14 @@
+E:\Compartida\Projectes\AreaRecursosHumans_SAVIA\CLOUDsavia\API_UdL\UdLSaviaCloud\bin\Release\UdLSaviaCloud.dll
+E:\Compartida\Projectes\AreaRecursosHumans_SAVIA\CLOUDsavia\API_UdL\UdLSaviaCloud\bin\Release\UdLSaviaCloud.pdb
+E:\Compartida\Projectes\AreaRecursosHumans_SAVIA\CLOUDsavia\API_UdL\UdLSaviaCloud\bin\Release\Newtonsoft.Json.dll
+E:\Compartida\Projectes\AreaRecursosHumans_SAVIA\CLOUDsavia\API_UdL\UdLSaviaCloud\obj\Release\UdLSaviaCloud.dll
+E:\Compartida\Projectes\AreaRecursosHumans_SAVIA\CLOUDsavia\API_UdL\UdLSaviaCloud\obj\Release\UdLSaviaCloud.pdb
+C:\Compartida\Projectes\RecursosHumans\CLOUDsavia\API_UdL\UdLSaviaCloud\bin\Release\UdLSaviaCloud.dll
+C:\Compartida\Projectes\RecursosHumans\CLOUDsavia\API_UdL\UdLSaviaCloud\bin\Release\UdLSaviaCloud.pdb
+C:\Compartida\Projectes\RecursosHumans\CLOUDsavia\API_UdL\UdLSaviaCloud\bin\Release\MultiTools.dll
+C:\Compartida\Projectes\RecursosHumans\CLOUDsavia\API_UdL\UdLSaviaCloud\bin\Release\Newtonsoft.Json.dll
+C:\Compartida\Projectes\RecursosHumans\CLOUDsavia\API_UdL\UdLSaviaCloud\bin\Release\ICSharpCode.SharpZipLib.dll
+C:\Compartida\Projectes\RecursosHumans\CLOUDsavia\API_UdL\UdLSaviaCloud\bin\Release\MultiTools.pdb
+C:\Compartida\Projectes\RecursosHumans\CLOUDsavia\API_UdL\UdLSaviaCloud\obj\Release\UdLSaviaCloud.csprojResolveAssemblyReference.cache
+C:\Compartida\Projectes\RecursosHumans\CLOUDsavia\API_UdL\UdLSaviaCloud\obj\Release\UdLSaviaCloud.dll
+C:\Compartida\Projectes\RecursosHumans\CLOUDsavia\API_UdL\UdLSaviaCloud\obj\Release\UdLSaviaCloud.pdb
