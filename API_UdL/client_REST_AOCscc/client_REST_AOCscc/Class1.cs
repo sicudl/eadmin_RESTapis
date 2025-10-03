@@ -53,20 +53,22 @@ namespace client_REST_AOCscc
         private string base_URL = "https://cert.pci-cl-pre.aoc.cat/msc-ssc/api/signatura";
 
         string Peticio_signatura=
- "{\"dipositari\": \"9821920002\","+
- \"rol\": \"Segell proves administracio electronica remot\","+
- \"pdf\": {"+
- \"forma\": \"PADES_T\","+
- \"document\": {"+
- \"bytesB64\": \"@PDF_base_64_bytes\","+
- \"nom\": \"@PDF_nomFinal\" }}} ";
+ "{'dipositari': '9821920002',"+
+ "'rol': 'Segell proves UDL administracio electronica remot',"+
+ "'pdf': {"+
+ "'forma': 'PADES_T',"+
+ "'document': {"+
+ "'bytesB64': '@PDF_base_64_bytes',"+
+ "'nom': '@PDF_nomFinal' }}} ";
         public void Init(string NomFinalDocument,string PDF_base64)
         {
             Peticio_signatura = Peticio_signatura.Replace("@PDF_base_64_bytes", PDF_base64);
             Peticio_signatura = Peticio_signatura.Replace("@PDF_nomFinal", NomFinalDocument);
-            var data = Encoding.ASCII.GetBytes(Peticio_signatura,);
+            var data = Encoding.ASCII.GetBytes(Peticio_signatura);
 
             System.Net.ServicePointManager.SecurityProtocol = System.Net.SecurityProtocolType.Tls12;
+            // PIN cert client : 2ESfRXIbPRE
+            //TODO : carregar al client http que fa el post un .P12 amb el PIN que done AOC.
             var request = WebRequest.Create(base_URL);
             request.Method = "POST";
             request.ContentType = "application/x-www-form-urlencoded";
