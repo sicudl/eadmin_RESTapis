@@ -12,7 +12,7 @@ namespace client_AOC_firma
         static void Main(string[] args)
         {
             client_REST_AOCscc.Client signadorPDFAOC = new Client();
-            for(int i=0;i<128;i++)
+            for(int i=0;i<256;i++)
                 signadorPDFAOC.Init("","");
         }
     }

@@ -84,7 +84,8 @@ namespace client_REST_AOCscc
             // PIN cert client : 2ESfRXIbPRE
             //TODO : carregar al client http que fa el post un .P12 amb el PIN que done AOC.
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(base_URL);
-            request.ClientCertificates =  new X509CertificateCollection() { certificate };
+
+            //request.ClientCertificates =  new X509CertificateCollection() { certificate };
 
             request.Method = "POST";
             request.KeepAlive = true;
@@ -92,7 +93,7 @@ namespace client_REST_AOCscc
             request.UnsafeAuthenticatedConnectionSharing = true;
             request.ContentType = "application/json;charset=utf-8";                //"application/xml";
             request.Accept = "application/json";
-            request.Headers.Add("Authorization", "none");
+            request.Headers.Add("X-Amzn-Mtls-Clientcert", "-----BEGIN%20CERTIFICATE-----%0AMIIGvTCCBaWgAwIBAgIQaLGOSEwE2/4OAXvYfX4aWDANBgkqhkiG9w0BAQsFADCBiDELMAkGA1UEBhMCRVMxMzAxBgNVBAoMKkNPTlNPUkNJIEFETUlOSVNUUkFDSU8gT0JFUlRBIERFIENBVEFMVU5ZQTEqMCgGA1UECwwhU2VydmVpcyBQw7pibGljcyBkZSBDZXJ0aWZpY2FjacOzMRgwFgYDVQQDDA9FQy1TZWN0b3JQdWJsaWMwHhcNMjQwMjA2MDcxMDI4WhcNMjgwMjA2MDcxMDI3WjCCASQxCzAJBgNVBAYTAkVTMTQwMgYDVQQKDCtDb25zb3JjaSBBZG1pbmlzdHJhY2nDsyBPYmVydGEgZGUgQ2F0YWx1bnlhMRgwFgYDVQRhDA9WQVRFUy1RMDgwMTE3NUExKDAmBgNVBAsMH1BlcnNvbmEgdmluY3VsYWRhIGRlIG5pdmVsbCBtaWcxKTAnBgNVBAQMIE1hcsOtbiBNYXJ0w61uZXogLSBETkkgNzc1NzUzOThEMRYwFAYDVQQqDA1Kb3PDqSBWaWNlbnRlMRgwFgYDVQQFEw9JRENFUy03NzU3NTM5OEQxPjA8BgNVBAMMNUpvc8OpIFZpY2VudGUgTWFyw61uIE1hcnTDrW5leiAtIEROSSA3NzU3NTM5OEQgKFRDQVQpMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoKEpKaCP8Zvhei5Hj9j7nSX1pgP7m6VH6swjCNedd6a63KqLiUdDLxCISGZUnr3AWZnIH6+Pt7m2VDTPz65uTSfF05jTKDR7d6hFVQOPvJOV1i2NInJdImYQvOblGfHeXzO4cPZeI8hGmUh+AMIFDdWow6FIH8Kbo+xpN4FZdSnXAo4f4KlG0WQt6A5q1fL+WDzt2ZvtK8zV7LX2ScB8VT48m5HDw3BUcg93KisifOyXrwDAN9OwCX92gIYFTJFkMc5IG+WxqYvyB/0dNz1WwOGivcEdH2eaQlfwWA7AYiwRi27z4uMKqciZ5EwSIOkZZwV9QjFENhLUz0QdZbgywQIDAQABo4ICgjCCAn4wDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBRHPN4Ud7tqT0eRqQL/1Abhc9zi2TB2BggrBgEFBQcBAQRqMGgwQQYIKwYBBQUHMAKGNWh0dHA6Ly93d3cuY2F0Y2VydC5jYXQvZGVzY2FycmVnYS9lYy1zZWN0b3JwdWJsaWMuY3J0MCMGCCsGAQUFBzABhhdodHRwOi8vb2NzcC5jYXRjZXJ0LmNhdDAoBgNVHREEITAfgR1qb3NldmljZW50ZS5tYXJpbkBiYXNldGlzLmNvbTCBpgYDVR0gBIGeMIGbMIGNBgwrBgEEAfV4AQMCVgEwfTAxBggrBgEFBQcCARYlaHR0cHM6Ly93d3cuYW9jLmNhdC9DQVRDZXJ0L1JlZ3VsYWNpbzBIBggrBgEFBQcCAjA8DDpDZXJ0aWZpY2F0IGVsZWN0csOybmljIGRlIHBlcnNvbmEgdmluY3VsYWRhIGRlIG5pdmVsbCBtaWcuMAkGBwQAi+xAAQAwHgYDVR0lBBcwFQYIKwYBBQUHAwIGCSqGSIb3LwEBBTBwBggrBgEFBQcBAwRkMGIwCAYGBACORgEBMAsGBgQAjkYBAwIBDzATBgYEAI5GAQYwCQYHBACORgEGATA0BgYEAI5GAQUwKjAoFiJodHRwczovL3d3dy5hb2MuY2F0L2NhdGNlcnQvcGRzX2VuEwJlbjBBBgNVHR8EOjA4MDagNKAyhjBodHRwOi8vZXBzY2QuY2F0Y2VydC5uZXQvY3JsL2VjLXNlY3RvcnB1YmxpYy5jcmwwHQYDVR0OBBYEFGZIMb+443X/2v2+Iytvj8MNO+XqMA4GA1UdDwEB/wQEAwIF4DANBgkqhkiG9w0BAQsFAAOCAQEAMhsceowIfw08riL5xJ3fRVmb9omLf8YMBNBaxrEVHM+0t+VprQgddw67Y0zJsgUnft2BuDU2xVOJLjlTAB4wnyBSDxF1BuYO9RBWHTNRU5xBI8ouOpbIY0faczKhn9vYZ1Jp8LkMtleOwupz9FRR206yYcWwLP5BSKiQECLWkA/BaLf0fZejb7lJC2Tq+fbj7l1xcLMcUZf+SYCBqGBlkHz1yM4+E/FI+8os0+Dtsbnj21uFNLhuo0v7+kSSrV2C4x7/V4hq39hHCJNiscbxe6PwlNQ8iFQAu9ri4PMfWAcwWGlw+XcJvxRvP8PdFgVnxjZZutWFtgoWMXXFxwSWpg==-----END%20CERTIFICATE-----%0A");
             request.PreAuthenticate = false;
             request.ServerCertificateValidationCallback = ValidateServerCertficate;
             ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
