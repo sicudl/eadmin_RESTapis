@@ -8,3 +8,13 @@ C:\Compartida\repo_Projectes\eadmin_RESTapis\eadmin_RESTapis\API_UdL\client_REST
 C:\Compartida\repo_Projectes\eadmin_RESTapis\eadmin_RESTapis\API_UdL\client_REST_AOCscc\client_REST_AOCscc\obj\Debug\client_REST_AOCscc.dll
 C:\Compartida\repo_Projectes\eadmin_RESTapis\eadmin_RESTapis\API_UdL\client_REST_AOCscc\client_REST_AOCscc\obj\Debug\client_REST_AOCscc.pdb
 C:\Compartida\repo_Projectes\eadmin_RESTapis\eadmin_RESTapis\API_UdL\client_REST_AOCscc\client_REST_AOCscc\bin\Debug\HOLA.pdf
+C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_REST_AOCscc\client_REST_AOCscc\bin\Debug\2ESfRXIbPRE.p12
+C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_REST_AOCscc\client_REST_AOCscc\bin\Debug\HOLA.pdf
+C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_REST_AOCscc\client_REST_AOCscc\bin\Debug\client_REST_AOCscc.dll
+C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_REST_AOCscc\client_REST_AOCscc\bin\Debug\client_REST_AOCscc.pdb
+C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_REST_AOCscc\client_REST_AOCscc\bin\Debug\MultiTools.dll
+C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_REST_AOCscc\client_REST_AOCscc\bin\Debug\Newtonsoft.Json.dll
+C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_REST_AOCscc\client_REST_AOCscc\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_REST_AOCscc\client_REST_AOCscc\obj\Debug\client_REST_AOCscc.csprojResolveAssemblyReference.cache
+C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_REST_AOCscc\client_REST_AOCscc\obj\Debug\client_REST_AOCscc.dll
+C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_REST_AOCscc\client_REST_AOCscc\obj\Debug\client_REST_AOCscc.pdb

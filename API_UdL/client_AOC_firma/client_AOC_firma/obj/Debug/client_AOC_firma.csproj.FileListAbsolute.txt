@@ -10,3 +10,15 @@ C:\Compartida\repo_Projectes\eadmin_RESTapis\eadmin_RESTapis\API_UdL\client_AOC_
 C:\Compartida\repo_Projectes\eadmin_RESTapis\eadmin_RESTapis\API_UdL\client_AOC_firma\client_AOC_firma\obj\Debug\client_AOC_firma.exe
 C:\Compartida\repo_Projectes\eadmin_RESTapis\eadmin_RESTapis\API_UdL\client_AOC_firma\client_AOC_firma\obj\Debug\client_AOC_firma.pdb
 C:\Compartida\repo_Projectes\eadmin_RESTapis\eadmin_RESTapis\API_UdL\client_AOC_firma\client_AOC_firma\bin\Debug\HOLA.pdf
+C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_AOC_firma\client_AOC_firma\bin\Debug\client_AOC_firma.exe.config
+C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_AOC_firma\client_AOC_firma\obj\Debug\client_AOC_firma.exe
+C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_AOC_firma\client_AOC_firma\obj\Debug\client_AOC_firma.pdb
+C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_AOC_firma\client_AOC_firma\bin\Debug\2ESfRXIbPRE.p12
+C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_AOC_firma\client_AOC_firma\bin\Debug\HOLA.pdf
+C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_AOC_firma\client_AOC_firma\bin\Debug\client_AOC_firma.exe
+C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_AOC_firma\client_AOC_firma\bin\Debug\client_AOC_firma.pdb
+C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_AOC_firma\client_AOC_firma\bin\Debug\client_REST_AOCscc.dll
+C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_AOC_firma\client_AOC_firma\bin\Debug\MultiTools.dll
+C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_AOC_firma\client_AOC_firma\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_AOC_firma\client_AOC_firma\bin\Debug\client_REST_AOCscc.pdb
+C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_AOC_firma\client_AOC_firma\obj\Debug\client_AOC_firma.csprojResolveAssemblyReference.cache

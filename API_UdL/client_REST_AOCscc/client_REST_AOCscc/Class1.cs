@@ -104,6 +104,8 @@ namespace client_REST_AOCscc
             catch(System.Exception err)
             {
                 logger.WriteEntry(err.Message);
+                if (err.InnerException != null)
+                    ;
                 
 
             }
