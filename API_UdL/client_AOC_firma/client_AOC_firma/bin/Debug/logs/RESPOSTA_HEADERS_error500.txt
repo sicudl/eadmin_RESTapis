@@ -1,0 +1,9 @@
+{Transfer-Encoding: chunked
+Connection: keep-alive
+X-OneAgent-JS-Injection: true
+Server-Timing: dtRpid;desc="-765091734", dtSInfo;desc="0"
+Content-Type: application/json
+Date: Tue, 07 Oct 2025 10:38:25 GMT
+Set-Cookie: dtCookie=v_4_srv_5_sn_5E66143AD88A84A65A8324A694F46197_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_0_rcs-3Acss_0; Path=/; Domain=.aoc.cat
+
+}

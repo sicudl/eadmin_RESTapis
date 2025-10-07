@@ -84,30 +84,34 @@ namespace client_REST_AOCscc
             // PIN cert client : 2ESfRXIbPRE
             //TODO : carregar al client http que fa el post un .P12 amb el PIN que done AOC.
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(base_URL);
-            request.ClientCertificates = new X509CertificateCollection() { certificate };
+            request.ClientCertificates =  new X509CertificateCollection() { certificate };
 
             request.Method = "POST";
-            request.ContentType = "application/json";                //"application/xml";
+            request.KeepAlive = true;
+            request.UseDefaultCredentials = false;
+            request.UnsafeAuthenticatedConnectionSharing = true;
+            request.ContentType = "application/json;charset=utf-8";                //"application/xml";
             request.Accept = "application/json";
-            request.PreAuthenticate = true;
+            request.Headers.Add("Authorization", "none");
+            request.PreAuthenticate = false;
             request.ServerCertificateValidationCallback = ValidateServerCertficate;
-            //ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
+            ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
             request.ContentLength = data.Length;
+            HttpWebResponse response = null;
             try
             { 
             using (var stream = request.GetRequestStream())
             {
                 stream.Write(data, 0, data.Length);
             }
-            var response = (HttpWebResponse)request.GetResponse();
+               response = (HttpWebResponse)request.GetResponse();
             }
             catch(System.Exception err)
-            {
+            {                
                 logger.WriteEntry(err.Message);
-                if (err.InnerException != null)
-                    ;
-                
-
+                logger.WriteEntry(Peticio_signatura);
+               // logger.WriteEntry(response.StatusDescription);
+                //logger.WriteEntry(response.Server);
             }
         }
 
