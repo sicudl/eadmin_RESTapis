@@ -13,7 +13,7 @@ namespace client_AOC_firma
         {
             client_REST_AOCscc.Client signadorPDFAOC = new Client();
             for(int i=0;i<256;i++)
-                signadorPDFAOC.Init("","");
+                signadorPDFAOC.InitAsync("","");
         }
     }
 }
