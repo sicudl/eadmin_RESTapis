@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.36324.19
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "client_REST_AOCscc", "API_UdL\client_REST_AOCscc\client_REST_AOCscc\client_REST_AOCscc.csproj", "{6A16CBE7-1ED5-4624-82C9-6F44F3BEE193}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "client_AOC_firma", "API_UdL\client_AOC_firma\client_AOC_firma\client_AOC_firma.csproj", "{EB1ED414-A944-4750-983D-A8937AC4DD2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "provaRApidaREST_SCC_AOC", "API_UdL\client_REST_AOCscc\provaRApidaREST_SCC_AOC\provaRApidaREST_SCC_AOC.csproj", "{58DF015A-C2C5-442B-A2C7-EAE6E1A43E6B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +23,15 @@ Global
 		{EB1ED414-A944-4750-983D-A8937AC4DD2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB1ED414-A944-4750-983D-A8937AC4DD2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB1ED414-A944-4750-983D-A8937AC4DD2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58DF015A-C2C5-442B-A2C7-EAE6E1A43E6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58DF015A-C2C5-442B-A2C7-EAE6E1A43E6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58DF015A-C2C5-442B-A2C7-EAE6E1A43E6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58DF015A-C2C5-442B-A2C7-EAE6E1A43E6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {077B3A99-0755-4DD0-8751-A6099E0D46EC}
 	EndGlobalSection
 EndGlobal

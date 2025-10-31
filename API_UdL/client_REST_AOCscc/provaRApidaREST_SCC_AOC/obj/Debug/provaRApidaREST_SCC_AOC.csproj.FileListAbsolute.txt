@@ -1,0 +1,16 @@
+C:\Users\imunoz\source\repos\provaRApidaREST_SCC_AOC\provaRApidaREST_SCC_AOC\obj\Debug\provaRApidaREST_SCC_AOC.csprojAssemblyReference.cache
+C:\Users\imunoz\source\repos\provaRApidaREST_SCC_AOC\provaRApidaREST_SCC_AOC\obj\Debug\provaRApidaREST_SCC_AOC.csproj.CoreCompileInputs.cache
+C:\Users\imunoz\source\repos\provaRApidaREST_SCC_AOC\provaRApidaREST_SCC_AOC\bin\Debug\provaRApidaREST_SCC_AOC.exe.config
+C:\Users\imunoz\source\repos\provaRApidaREST_SCC_AOC\provaRApidaREST_SCC_AOC\bin\Debug\provaRApidaREST_SCC_AOC.exe
+C:\Users\imunoz\source\repos\provaRApidaREST_SCC_AOC\provaRApidaREST_SCC_AOC\bin\Debug\provaRApidaREST_SCC_AOC.pdb
+C:\Users\imunoz\source\repos\provaRApidaREST_SCC_AOC\provaRApidaREST_SCC_AOC\obj\Debug\provaRApidaREST_SCC_AOC.exe
+C:\Users\imunoz\source\repos\provaRApidaREST_SCC_AOC\provaRApidaREST_SCC_AOC\obj\Debug\provaRApidaREST_SCC_AOC.pdb
+C:\Users\imunoz\source\repos\provaRApidaREST_SCC_AOC\provaRApidaREST_SCC_AOC\bin\Debug\2ESfRXIbPRE.p12
+C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_REST_AOCscc\provaRApidaREST_SCC_AOC\bin\Debug\2ESfRXIbPRE.p12
+C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_REST_AOCscc\provaRApidaREST_SCC_AOC\bin\Debug\provaRApidaREST_SCC_AOC.exe.config
+C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_REST_AOCscc\provaRApidaREST_SCC_AOC\bin\Debug\provaRApidaREST_SCC_AOC.exe
+C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_REST_AOCscc\provaRApidaREST_SCC_AOC\bin\Debug\provaRApidaREST_SCC_AOC.pdb
+C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_REST_AOCscc\provaRApidaREST_SCC_AOC\obj\Debug\provaRApidaREST_SCC_AOC.csprojAssemblyReference.cache
+C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_REST_AOCscc\provaRApidaREST_SCC_AOC\obj\Debug\provaRApidaREST_SCC_AOC.csproj.CoreCompileInputs.cache
+C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_REST_AOCscc\provaRApidaREST_SCC_AOC\obj\Debug\provaRApidaREST_SCC_AOC.exe
+C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_REST_AOCscc\provaRApidaREST_SCC_AOC\obj\Debug\provaRApidaREST_SCC_AOC.pdb
