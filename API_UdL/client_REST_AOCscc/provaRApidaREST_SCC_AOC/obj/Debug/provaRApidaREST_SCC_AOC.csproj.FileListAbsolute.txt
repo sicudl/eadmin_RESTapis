@@ -14,3 +14,5 @@ C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_REST_AOCscc\provaRAp
 C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_REST_AOCscc\provaRApidaREST_SCC_AOC\obj\Debug\provaRApidaREST_SCC_AOC.csproj.CoreCompileInputs.cache
 C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_REST_AOCscc\provaRApidaREST_SCC_AOC\obj\Debug\provaRApidaREST_SCC_AOC.exe
 C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_REST_AOCscc\provaRApidaREST_SCC_AOC\obj\Debug\provaRApidaREST_SCC_AOC.pdb
+C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_REST_AOCscc\provaRApidaREST_SCC_AOC\bin\Debug\Newtonsoft.Json.dll
+C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_REST_AOCscc\provaRApidaREST_SCC_AOC\obj\Debug\provaRApidaREST_SCC_AOC.csproj.CopyComplete

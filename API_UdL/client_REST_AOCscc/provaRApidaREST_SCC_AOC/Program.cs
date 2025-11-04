@@ -5,9 +5,26 @@ using System.Net.Http;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
+
 
 namespace provaRApidaREST_SCC_AOC
 {
+    public class signatura
+    {
+        public string bytesB64 = "";
+        public string codi = "";
+    }
+    public class resultat
+    {
+        public string codi = "";
+        public string descripcio = "";
+    }
+    public class RespostaSCC
+    {
+        public signatura SignaturaRespota;
+        public resultat Signaturaresultat;
+    }
     class Program
     {
         /*
@@ -65,6 +82,10 @@ namespace provaRApidaREST_SCC_AOC
             response.EnsureSuccessStatusCode();
 
             string resposta = await response.Content.ReadAsStringAsync();
+            object resp = JsonConvert.DeserializeObject< RespostaSCC>(resposta);
+
+            RespostaSCC re = (RespostaSCC)resp;
+            
             //Console.WriteLine(resposta);
             return resposta;
             //Console.WriteLine(await response.Content.ReadAsStringAsync());
@@ -79,7 +100,7 @@ namespace provaRApidaREST_SCC_AOC
             }
             catch (ArgumentException aex)
             {
-                Console.WriteLine($"Caught ArgumentException: {aex.Message}");
+                Console.WriteLine("Caught ArgumentException: {aex.Message}");
             }
 
 

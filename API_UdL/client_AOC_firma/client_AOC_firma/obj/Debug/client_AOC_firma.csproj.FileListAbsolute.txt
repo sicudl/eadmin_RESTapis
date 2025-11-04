@@ -21,4 +21,7 @@ C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_AOC_firma\client_AOC
 C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_AOC_firma\client_AOC_firma\bin\Debug\MultiTools.dll
 C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_AOC_firma\client_AOC_firma\bin\Debug\ICSharpCode.SharpZipLib.dll
 C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_AOC_firma\client_AOC_firma\bin\Debug\client_REST_AOCscc.pdb
-C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_AOC_firma\client_AOC_firma\obj\Debug\client_AOC_firma.csprojResolveAssemblyReference.cache
+C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_AOC_firma\client_AOC_firma\bin\Debug\Newtonsoft.Json.dll
+C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_AOC_firma\client_AOC_firma\obj\Debug\client_AOC_firma.csprojAssemblyReference.cache
+C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_AOC_firma\client_AOC_firma\obj\Debug\client_AOC_firma.csproj.CoreCompileInputs.cache
+C:\Compartida\Repo_Projectes\eadmin_RESTapis\API_UdL\client_AOC_firma\client_AOC_firma\obj\Debug\client_AOC_firma.csproj.CopyComplete
