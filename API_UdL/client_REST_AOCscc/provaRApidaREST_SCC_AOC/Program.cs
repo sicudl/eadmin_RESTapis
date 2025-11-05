@@ -68,7 +68,6 @@ namespace provaRApidaREST_SCC_AOC
 
              var handler = new HttpClientHandler();
             handler.ClientCertificates.Add(certificate);
-
          
             HttpClient client = new HttpClient(handler);
             HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Post, "https://cert.pci-cl-pre.aoc.cat/msc-ssc/api/signatura");

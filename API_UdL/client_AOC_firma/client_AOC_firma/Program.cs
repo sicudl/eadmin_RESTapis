@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using client_REST_AOCscc;
+using MultiTools;
 
 namespace client_AOC_firma
 {
@@ -11,17 +12,38 @@ namespace client_AOC_firma
     {
         static void Main(string[] args)
         {
-            client_REST_AOCscc.Client signadorPDFAOC = new Client();
-            //for(int i=0;i<256;i++)
-            string pp = client_REST_AOCscc.mProgram.Res;
-            client_REST_AOCscc.mProgram.Crida("f");
-            pp= client_REST_AOCscc.mProgram.Res;
+            MultiTools.General.AppLog logger = new MultiTools.General.AppLog("");
 
-            if (signadorPDFAOC.ErrorPeticio)
-                Console.WriteLine("Error");
+
+        string NomDocument = "";
+            string NomFinalDocument = "";// v_NomFinalDocument;
+            string PDF_base64 = "";// v_PDF_base64;
+            MultiTools.General.BASE64er b64 = new MultiTools.General.BASE64er();
+
+            if (args.Length < 1)
+                NomDocument = @"HOLA.pdf";
             else
-                Console.WriteLine(signadorPDFAOC.PeticioRetorn);
-            while (Console.KeyAvailable) { Console.ReadKey(true); }
+                NomDocument = args[0];
+
+            PDF_base64 = b64.EnCodeFile(NomDocument);
+            NomFinalDocument = "provaSignat_" + System.DateTime.Now.Ticks.ToString() + NomDocument;
+                        
+            string pp = client_REST_AOCscc.ccSignadorAOC.Res;
+            client_REST_AOCscc.ccSignadorAOC.Crida(
+                b64.EnCode(NomDocument)+";"+
+                b64.EnCode(NomFinalDocument) + ";" +
+                PDF_base64+";;;;;;;;;;;");
+            pp= client_REST_AOCscc.ccSignadorAOC.Res;
+
+            if (client_REST_AOCscc.ccSignadorAOC.ErrorPeticio)
+                Console.WriteLine("Error : "+client_REST_AOCscc.ccSignadorAOC.ErrorPeticioMissatge);
+
+            if (client_REST_AOCscc.ccSignadorAOC.ErrorPeticio)
+                logger.WriteEntry(client_REST_AOCscc.ccSignadorAOC.ErrorPeticioMissatge);
+            
+            b64.DeCodeAsFile(client_REST_AOCscc.ccSignadorAOC.bytesPDFsignats_b64, NomFinalDocument);
+
+            Console.ReadKey();
         }
     }
 }
