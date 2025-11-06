@@ -36,14 +36,18 @@ namespace client_AOC_firma
             pp= client_REST_AOCscc.ccSignadorAOC.Res;
 
             if (client_REST_AOCscc.ccSignadorAOC.ErrorPeticio)
-                Console.WriteLine("Error : "+client_REST_AOCscc.ccSignadorAOC.ErrorPeticioMissatge);
+                Console.WriteLine("finalitza amb Error : " + client_REST_AOCscc.ccSignadorAOC.ErrorPeticioMissatge);
 
             if (client_REST_AOCscc.ccSignadorAOC.ErrorPeticio)
                 logger.WriteEntry(client_REST_AOCscc.ccSignadorAOC.ErrorPeticioMissatge);
             
-            b64.DeCodeAsFile(client_REST_AOCscc.ccSignadorAOC.bytesPDFsignats_b64, NomFinalDocument);
+            b64.DeCodeAsFile(
+                client_REST_AOCscc.ccSignadorAOC.RespostaSignatura.SignaturaResposta.bytesB64,
+                NomFinalDocument);
 
-            Console.ReadKey();
+            Console.WriteLine("finalitza amb signat = " + NomFinalDocument);
+            Console.WriteLine("CSV del document = " + client_REST_AOCscc.ccSignadorAOC.RespostaSignatura.SignaturaResposta.codi);
+           // Console.ReadKey();
         }
     }
 }
